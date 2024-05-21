@@ -2,7 +2,7 @@
 
 namespace Catalog.API.Data
 {
-    public class CatalogInıtialData : IInitialData
+    public class CatalogInitialData : IInitialData
     {
         public async Task Populate(IDocumentStore store, CancellationToken cancellation)
         {
