@@ -3,7 +3,7 @@
     public record GetBasketQuery(string UserName)
         : IQuery<GetBasketResult>;
     public record GetBasketResult
-        (ShoppingCart ShoppingCart);
+        (ShoppingCart Cart);
     public class GetBasketQueryHandler
         (IBasketRepository repository)
         : IQueryHandler<GetBasketQuery, GetBasketResult>
