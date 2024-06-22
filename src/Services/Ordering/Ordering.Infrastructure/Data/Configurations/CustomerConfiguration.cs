@@ -1,4 +1,4 @@
-﻿
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 namespace Ordering.Infrastructure.Data.Configurations
 {
     public class CustomerConfiguration : IEntityTypeConfiguration<Customer>
