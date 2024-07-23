@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
 
 namespace BuildingBlocks.Messaging.MassTransit
 {
-    internal class Extentions
+    public static class Extentions
     {
+        public static IServiceCollection AddMessageBroker(this IServiceCollection services, Assembly? assembly = null) 
+        {
+            return services;
+        }
     }
 }
