@@ -37,11 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks.Messaging", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{14D7F5D4-2FB1-462F-942D-AA62025EF3A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarpApiGateway", "ApiGateways\YarpApiGateway\YarpApiGateway.csproj", "{F9394797-FD85-408A-ABDD-07F0138CDD09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YarpApiGateway", "ApiGateways\YarpApiGateway\YarpApiGateway.csproj", "{F9394797-FD85-408A-ABDD-07F0138CDD09}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{6D6F9A64-ABEC-4143-8E72-58A66BF98FF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Web", "WebApps\Shopping.Web\Shopping.Web.csproj", "{CE222E5A-6C89-411E-8798-246516276355}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Web", "WebApps\Shopping.Web\Shopping.Web.csproj", "{CE222E5A-6C89-411E-8798-246516276355}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
