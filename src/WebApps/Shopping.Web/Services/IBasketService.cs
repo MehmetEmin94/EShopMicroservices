@@ -13,7 +13,7 @@ namespace Shopping.Web.Services
         Task<DeleteBasketResponse> DeleteBasket(string userName);
 
         [Post("/basket-service/basket/checkout")]
-        Task<CheckoutBasketResponse> CheckoutBasket(BasketCheckoutModel BasketCheckoutDto);
+        Task<CheckoutBasketResponse> CheckoutBasket(CheckoutBasketRequest request);
 
         public async Task<ShoppingCartModel> LoadUserBasket()
         {
